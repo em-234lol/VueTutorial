@@ -11,7 +11,11 @@ createApp({
 </script>
 
 <div id="app">
-  <h1 :class='titleClass'>Make me red</h1> <!-- add dynamic class binding here -->
+  <h1v-bind:class='titleClass'>Make me red</h1> <!-- add dynamic class binding here -->
+  <!--
+  Because v-bind is used so frequently, it has a dedicated shorthand syntax:
+  <h1 :class='titleClass'>Make me red</h1>
+  -->
 </div>
 <style>
 .title {
