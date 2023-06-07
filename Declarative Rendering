@@ -1,0 +1,11 @@
+<script>
+export default{
+               data(){
+                return{message:'I\'m LINA ALAMA'} 
+               }
+}
+</script>
+
+<template>
+  <h1>{{message.split('')}}</h1>
+</template>
