@@ -9,3 +9,6 @@ export default{
 <template>
   <h1>{{message.split('')}}</h1>
 </template>
+
+result:
+[ "I", "'", "m", " ", "L", "I", "N", "A", " ", "A", "L", "A", "M", "A" ]
