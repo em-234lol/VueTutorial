@@ -1,0 +1,11 @@
+<script>
+export default{
+               data(){
+                return{message:'I\'m LINA ALAMA'} 
+               }
+}
+</script>
+
+<template>
+  <h1><h1>{{ message.split('').reverse().join('') }}</h1></h1>
+</template>
