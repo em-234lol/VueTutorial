@@ -7,7 +7,8 @@ createApp({
       count: 0
     }
   },
-  methods:{
+  methods:{  
+ ///Note:  methodes it is a reseved word (" diff than methode")
     increment(){
       
       this.count++
