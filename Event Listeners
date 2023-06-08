@@ -22,3 +22,25 @@ createApp({
   <!-- make this button work -->
   <button @click='increment'> {{ count }}</button>
 </div>
+/////////////////////////
+<script type="module">
+import { createApp } from 'vue'
+
+createApp({
+  data() {
+    return {
+      count: 0
+    }
+  }, 
+  methods:{
+    increment(){
+     this.count++
+    }
+  }
+}).mount('#app')
+</script>
+
+<div id="app">
+  <!-- make this button work -->
+  <button v-on:click='increment'>count is: {{ count }}</button>
+</div>
